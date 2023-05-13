@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T07:27:38.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rsEx8TWao0ZiPbQnQ3Fw" version="21.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-13T07:30:08.411Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="LbfUw30K6Qt-7yLTFBxr" version="21.1.5" type="github" pages="4">
   <diagram name="第 1 页" id="Zl5Wu301qWOwzBmfVY7P">
     <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -310,6 +310,128 @@
         </mxCell>
         <mxCell id="5hVuVDhh7jj6hKGbsdJr-2" value="&lt;font style=&quot;font-size: 21px;&quot; color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;&quot;&gt;注：此例中我们在汇编中是没有leave指令的。&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;因为在add()函数中我们没有创建临时变量，ebp与esp始&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;终指向同一位置，而leave相当于mov esp ebp 与 pop ebp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;此时前一句并不需要，所以此处汇编中我们只会观察到pop ebp&lt;/div&gt;&lt;div style=&quot;&quot;&gt;故leave指令执行前即为pop指令执行前&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="450" y="125" width="600" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aCMyuBRy8DNpGXbMRGJ4" name="第 4 页">
+    <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="emL-8IncbdVAabpkedDS-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d168&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="52.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d164&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="97.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d160&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="142.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-7" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d15c&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="195" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-8" value="0x0000 000f&amp;nbsp; &amp;nbsp;(a)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="187.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-9" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d158&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-10" value="0x0000 0016&amp;nbsp; (b)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="232.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d154&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="285" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-12" value="0x0000 0025&amp;nbsp; (c)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="277.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-13" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d150&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="322.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-15" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d14c&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="375" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-16" value="0xffff d154&amp;nbsp; (&amp;amp;c)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="367.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-17" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d148&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-18" value="0x0000 0016 (参数b)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="412.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-19" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d144&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="465" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-20" value="0x0000 000f&amp;nbsp; (参数a)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="457.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-21" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;ebp&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="470" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-22" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=0;fontSize=19;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="54.5" as="sourcePoint" />
+            <mxPoint x="430" y="54.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-23" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 30px;&quot;&gt;leave指令调用后&lt;br&gt;栈帧情况&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="30" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-24" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d140&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-25" value="0x0804 845a&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="502.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-26" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;esp&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="470" y="580" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-27" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=0;fontSize=19;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="594.5" as="sourcePoint" />
+            <mxPoint x="430" y="594.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="520" as="sourcePoint" />
+            <mxPoint x="520" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-29" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;(call指令的下一条指令的地址)&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="470" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-30" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;0xffff d13c&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="555" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-31" value="0xffff d168 (原ebp)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="547.5" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="307.5" as="sourcePoint" />
+            <mxPoint x="550" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-33" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 17px;&quot;&gt;add函数计算出了结果并通过指针修改了c的值&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="290" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="emL-8IncbdVAabpkedDS-34" value="&lt;font style=&quot;font-size: 21px;&quot; color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;&quot;&gt;注：此例中我们在汇编中是没有leave指令的。&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;因为在add()函数中我们没有创建临时变量，ebp与esp始&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;终指向同一位置，而leave相当于mov esp ebp 与 pop ebp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;此时前一句并不需要，所以此处汇编中我们只会观察到pop ebp&lt;/div&gt;&lt;div style=&quot;&quot;&gt;故leave指令执行后即为pop指令执行后&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="569" y="105" width="600" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
