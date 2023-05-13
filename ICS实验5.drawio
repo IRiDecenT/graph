@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T07:25:36.334Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-8wkHqUOF4_Haih9JlE2" version="21.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-13T07:27:38.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rsEx8TWao0ZiPbQnQ3Fw" version="21.1.5" type="github" pages="3">
   <diagram name="第 1 页" id="Zl5Wu301qWOwzBmfVY7P">
     <mxGraphModel dx="1194" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -308,8 +308,8 @@
         <mxCell id="NlC0LEZhg0LC94R3OD5g-33" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 17px;&quot;&gt;add函数计算出了结果并通过指针修改了c的值&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="290" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5hVuVDhh7jj6hKGbsdJr-2" value="&lt;font style=&quot;font-size: 21px;&quot; color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;&quot;&gt;注：此例中我们在汇编中是没有leave指令的。&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;因为在add()函数中我们没有创建临时变量，ebp与esp始&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;终指向同一位置，而leave相当于mov esp ebp 与 pop ebp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;此时前一句并不需要，所以此处汇编中我们只会观察到pop ebp&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="450" y="135" width="600" height="110" as="geometry" />
+        <mxCell id="5hVuVDhh7jj6hKGbsdJr-2" value="&lt;font style=&quot;font-size: 21px;&quot; color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;&quot;&gt;注：此例中我们在汇编中是没有leave指令的。&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;因为在add()函数中我们没有创建临时变量，ebp与esp始&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;终指向同一位置，而leave相当于mov esp ebp 与 pop ebp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;此时前一句并不需要，所以此处汇编中我们只会观察到pop ebp&lt;/div&gt;&lt;div style=&quot;&quot;&gt;故leave指令执行前即为pop指令执行前&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="125" width="600" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
