@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T06:48:02.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="698HZPbyyCik3JZtxJlt" version="22.0.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-10-30T06:50:11.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="peWMftHCc6zApv8kemtp" version="22.0.8" type="github" pages="8">
   <diagram name="第 1 页" id="TmnJzqM2-JjJi_LOcNfC">
     <mxGraphModel dx="976" dy="605" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -701,7 +701,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vgqAZkFDVeKvSt73ANlr" name="第 8 页">
-    <mxGraphModel dx="813" dy="504" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1252" dy="604" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -854,6 +854,9 @@
         <mxCell id="p-A967UEoCUd3imOkO8d-6" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="555" y="403.5" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="p-A967UEoCUd3imOkO8d-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p-A967UEoCUd3imOkO8d-7" target="p-A967UEoCUd3imOkO8d-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="p-A967UEoCUd3imOkO8d-7" value="二次确认" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="370" y="497" width="108" height="27" as="geometry" />
         </mxCell>
@@ -863,6 +866,35 @@
             <mxPoint x="421.58" y="496.42" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="p-A967UEoCUd3imOkO8d-11" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544" y="490.5" width="52" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p-A967UEoCUd3imOkO8d-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;取消&lt;/font&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="-0.3585" width="160" relative="1" as="geometry">
+            <mxPoint x="596" y="510.08000000000004" as="sourcePoint" />
+            <mxPoint x="653" y="510.08000000000004" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-A967UEoCUd3imOkO8d-14" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="654" y="495.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p-A967UEoCUd3imOkO8d-15" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;确认&lt;/font&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="-0.4993" width="160" relative="1" as="geometry">
+            <mxPoint x="569.5799999999999" y="530.5" as="sourcePoint" />
+            <mxPoint x="570" y="575" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-A967UEoCUd3imOkO8d-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p-A967UEoCUd3imOkO8d-16" target="p-A967UEoCUd3imOkO8d-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-A967UEoCUd3imOkO8d-16" value="用户权限提升" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="516" y="575" width="108" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="p-A967UEoCUd3imOkO8d-17" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="674" y="573.5" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
