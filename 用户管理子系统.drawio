@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T06:34:30.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="dyeZm3epBWU8nysrKamH" version="22.0.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-30T06:37:59.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="sXE8z4wsEfx0PxhaWIhT" version="22.0.8" type="github" pages="7">
   <diagram name="第 1 页" id="TmnJzqM2-JjJi_LOcNfC">
     <mxGraphModel dx="976" dy="605" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -622,10 +622,10 @@
         <mxCell id="sgbZ3ZeTnLTru_GmhPcl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sgbZ3ZeTnLTru_GmhPcl-23" target="sgbZ3ZeTnLTru_GmhPcl-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-23" value="输入信息非法" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-23" value="不存在该用户" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="414" y="318.5" width="108" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-24" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;验证失败&lt;/font&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-24" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;寻找失败&lt;/font&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry x="-0.1346" width="160" relative="1" as="geometry">
             <mxPoint x="321" y="331.65999999999997" as="sourcePoint" />
             <mxPoint x="415" y="332" as="targetPoint" />
@@ -655,7 +655,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-29" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;验证成功&lt;/font&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-29" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;寻找成功&lt;/font&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry x="-0.3494" width="160" relative="1" as="geometry">
             <mxPoint x="294.66" y="352" as="sourcePoint" />
             <mxPoint x="294.66" y="405" as="targetPoint" />
@@ -665,11 +665,37 @@
         <mxCell id="sgbZ3ZeTnLTru_GmhPcl-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sgbZ3ZeTnLTru_GmhPcl-31" target="sgbZ3ZeTnLTru_GmhPcl-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-31" value="更新个人信息" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="241" y="405" width="108" height="27" as="geometry" />
+        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-31" value="删除用户" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="374" y="497" width="108" height="27" as="geometry" />
         </mxCell>
         <mxCell id="sgbZ3ZeTnLTru_GmhPcl-32" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="408" y="403.5" width="30" height="30" as="geometry" />
+          <mxGeometry x="413" y="553" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sgbZ3ZeTnLTru_GmhPcl-35" target="sgbZ3ZeTnLTru_GmhPcl-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-35" value="二次确认删除" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="241" y="405" width="108" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-36" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="398.5" width="52" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-39" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="552" y="403.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-41" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;取消&lt;/font&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="-0.1828" width="160" relative="1" as="geometry">
+            <mxPoint x="457" y="418.08000000000004" as="sourcePoint" />
+            <mxPoint x="550" y="418" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sgbZ3ZeTnLTru_GmhPcl-42" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;确认删除&lt;/font&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="-0.1828" width="160" relative="1" as="geometry">
+            <mxPoint x="427.58000000000004" y="438.5" as="sourcePoint" />
+            <mxPoint x="427.58000000000004" y="496.34000000000003" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
