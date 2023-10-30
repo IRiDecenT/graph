@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T06:09:36.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Ah8-at8VPn9XxiKNBrvw" version="22.0.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-30T06:09:47.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="bPLI5tc23fSeMx70HQI4" version="22.0.8" type="github" pages="4">
   <diagram name="第 1 页" id="TmnJzqM2-JjJi_LOcNfC">
     <mxGraphModel dx="976" dy="605" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -378,7 +378,7 @@
         <mxCell id="Mz_2KDVUGlzgFvwdKQ1Q-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mz_2KDVUGlzgFvwdKQ1Q-31" target="Mz_2KDVUGlzgFvwdKQ1Q-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mz_2KDVUGlzgFvwdKQ1Q-31" value="更新密码" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Mz_2KDVUGlzgFvwdKQ1Q-31" value="更新个人信息" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="241" y="405" width="108" height="27" as="geometry" />
         </mxCell>
         <mxCell id="Mz_2KDVUGlzgFvwdKQ1Q-32" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
