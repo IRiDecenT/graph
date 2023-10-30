@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T05:58:47.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="DWjq5nDYuX-U2txOxOND" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T06:00:26.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="W8tDL5KogrlA7rSGd8BB" version="22.0.8" type="github">
   <diagram name="第 1 页" id="cpzl2ByvCGcXQiZo-43P">
     <mxGraphModel dx="976" dy="605" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -9,30 +9,30 @@
         </mxCell>
         <mxCell id="15oJ6TcjCSk08Qs32s2y-3" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="282" y="338" as="sourcePoint" />
-            <mxPoint x="460" y="244" as="targetPoint" />
+            <mxPoint x="276" y="341" as="sourcePoint" />
+            <mxPoint x="385" y="341" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="15oJ6TcjCSk08Qs32s2y-4" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="15oJ6TcjCSk08Qs32s2y-7" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;评论操作&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="389" y="306.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="15oJ6TcjCSk08Qs32s2y-8" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;发表评论&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="632" y="149" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="15oJ6TcjCSk08Qs32s2y-9" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="281" y="339" as="sourcePoint" />
-            <mxPoint x="468" y="352" as="targetPoint" />
+            <mxPoint x="630" y="187" as="sourcePoint" />
+            <mxPoint x="510" y="314" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="15oJ6TcjCSk08Qs32s2y-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="15oJ6TcjCSk08Qs32s2y-10" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;查看评论&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="679" y="233" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="15oJ6TcjCSk08Qs32s2y-11" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="15oJ6TcjCSk08Qs32s2y-10">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="282" y="339" as="sourcePoint" />
-            <mxPoint x="464" y="469" as="targetPoint" />
+            <mxPoint x="649" y="213" as="sourcePoint" />
+            <mxPoint x="529" y="340" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="15oJ6TcjCSk08Qs32s2y-6" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;查询用户&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=4;" vertex="1" parent="1">
-          <mxGeometry x="489" y="210" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="15oJ6TcjCSk08Qs32s2y-7" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;删除用户&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=4;" vertex="1" parent="1">
-          <mxGeometry x="489" y="317.5" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="15oJ6TcjCSk08Qs32s2y-8" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;权限提升&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=4;" vertex="1" parent="1">
-          <mxGeometry x="489" y="430" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
