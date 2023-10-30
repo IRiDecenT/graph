@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T07:29:20.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Mq3f_sAf2pJ-p2fAZayd" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T07:30:28.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="1O8iOXfN6rILWMFwWJ2J" version="22.0.8" type="github">
   <diagram name="第 1 页" id="fRhKLT-5LVwipsHS6PyS">
     <mxGraphModel dx="976" dy="605" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -47,6 +47,12 @@
         <mxCell id="iQ2heyyFukv6lMNL8AU1-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;相册管理子系统&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="204" width="209" height="39" as="geometry" />
         </mxCell>
+        <mxCell id="iQ2heyyFukv6lMNL8AU1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iQ2heyyFukv6lMNL8AU1-4" target="iQ2heyyFukv6lMNL8AU1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ2heyyFukv6lMNL8AU1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iQ2heyyFukv6lMNL8AU1-4" target="iQ2heyyFukv6lMNL8AU1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iQ2heyyFukv6lMNL8AU1-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;用户管理子系统&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="645" y="204" width="209" height="39" as="geometry" />
         </mxCell>
@@ -67,6 +73,12 @@
         </mxCell>
         <mxCell id="iQ2heyyFukv6lMNL8AU1-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;评&lt;br&gt;论&lt;br&gt;操&lt;br&gt;作&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="531" y="314" width="50" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ2heyyFukv6lMNL8AU1-21" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;用户&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="627" y="300" width="88" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ2heyyFukv6lMNL8AU1-22" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;管理员&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="777" y="300" width="118" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
