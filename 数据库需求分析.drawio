@@ -1,9 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T06:44:03.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2P67mVzJKcgeP4kjcBUP" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T06:46:41.717Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="EyqKMp8qbSKO_Wmh4vs4" version="22.0.8" type="github">
   <diagram name="第 1 页" id="7W-Vml-be71XeKP4XQ2E">
-    <mxGraphModel dx="1488" dy="893" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1240" dy="744" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2akz_Gd9F4VhMpxJWejg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2akz_Gd9F4VhMpxJWejg-3" target="2akz_Gd9F4VhMpxJWejg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2akz_Gd9F4VhMpxJWejg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2akz_Gd9F4VhMpxJWejg-3" target="2akz_Gd9F4VhMpxJWejg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="509" y="66" />
+              <mxPoint x="691" y="66" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2akz_Gd9F4VhMpxJWejg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2akz_Gd9F4VhMpxJWejg-3" target="2akz_Gd9F4VhMpxJWejg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="509" y="66" />
+              <mxPoint x="327" y="66" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2akz_Gd9F4VhMpxJWejg-3" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;客户&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446" y="9" width="126" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="2akz_Gd9F4VhMpxJWejg-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;入住请求&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="276" y="93" width="102" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="2akz_Gd9F4VhMpxJWejg-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;续住请求&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="458" y="93" width="102" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="2akz_Gd9F4VhMpxJWejg-6" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;退房请求&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="93" width="102" height="36" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
